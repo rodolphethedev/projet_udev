@@ -114,21 +114,21 @@ header #search .feedback-input {
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
     border: 0px solid rgba(0,0,0,0);
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     cursor: pointer;
 }
 
-header #search.feedback-input:hover{
+header #search .feedback-input:hover{
 	box-shadow: 0;
 	font-weight: bold;
 	color: #ff0000;
 	background-color: #f7f7f7;
 	outline: none;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #button-blue{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	float:left;
 	width: 100%;
 	border: #fbfbfb solid 4px;
@@ -162,40 +162,36 @@ header img{
 	margin-top: 400px;
 	margin-left: 2%;
 	margin-right: 2%;
-	border: 2px solid black;
 	display: block;
 }
 
 #section1 article{
-	width: 71%;
+	width: 30%;
 	margin-right: 2%;
 	float: left;
 	box-sizing: border-box;
-	border: 2px solid black;
 }
 
 #section1 aside{
-	width: 23%;
+	width: 64%;
 	display: inline-block;
 }
 
 #section2{
 	margin-left: 2%;
 	margin-right: 2%;
-	border: 2px solid black;
 	display: block;
 }
 
 #section2 article{
-	width: 71%;
+	width: 64%;
 	margin-right: 2%;
 	float: left;
 	box-sizing: border-box;
-	border: 2px solid black;
 }
 
 #section2 aside{
-	width: 23%;
+	width: 30%;
 	display: inline-block;
 }
 
@@ -204,6 +200,8 @@ footer{
 	height: 50px;
 	bottom: 0px;
 	color: #ffffff;
+	text-align: center;
+	line-height: 40px;
 	background-color: #1e1d1d;
 }
 
